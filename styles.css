@@ -1,0 +1,174 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    margin: auto;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    color: #edebff; /* Texto claro */
+    font-size: 20px;
+}
+
+header {
+    background-color: #0f0627; /* Fundo do cabeçalho */
+    color: white;
+    padding: 25px 20px;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 6vw; /* Título centralizado e responsivo */
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Menu distribuído */
+}
+
+.menu-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; /* Remove marcadores de lista */
+}
+
+.menu-li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+main {
+    margin: 30px; /* Espaço ao redor do conteúdo principal */
+}
+
+section {
+    margin-bottom: 60px; /* Espaço entre seções */
+}
+
+h2 {
+    color: #061761;
+    background-color: #b6b6b6; /* Fundo do subtítulo */
+    font-size: 40px; 
+    border-bottom: 3px solid;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 5px solid #2052f867; /* Bordas da tabela */
+    color: #061761;
+    background-color: #b6b6b6;
+}
+
+th, td {
+    padding: 15px; 
+    text-align: left; /* Alinhamento do texto nas células */
+}
+
+.projeto {
+    margin-bottom: 30px; /* Espaço entre projetos */
+}
+
+.projeto img {
+    width: 100%;
+    height: auto; /* Imagens ajustáveis */
+}
+
+/* Estilos de Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    flex: 2; /* Proporção do formulário */
+}
+
+form label {
+    margin-top: 15px; 
+    font-size: 24px; 
+}
+
+form input, form textarea {
+    width: 60%; 
+    padding: 15px; 
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 55px; /* Bordas arredondadas */
+}
+
+form textarea {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.mapa {
+    text-align: end;
+    flex: 1; /* Proporção do mapa */
+}
+
+.mapa iframe {
+    width: 100%; /* Mapa ocupa a largura do contêiner */
+    height: 300px; /* Altura fixa do mapa */
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Espaço entre formulário e mapa */
+}
+
+/* Estilos do Botão */
+button {
+    margin-top: 15px;
+    padding: 15px 20px;
+    color: #061761;
+    background-color: #b6b6b6; /* Fundo do botão */
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 25%; 
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animação suave */
+}
+
+button:hover {
+    color: #c4ffe6;
+    background-color: #318600; /* Mudança de cor ao passar o mouse */
+}
+
+/* Estilos de Links */
+a {
+    color: #b6b6b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c4ffe6;
+    background-color: #318600; /* Efeito hover em links */
+}
+
+#mapa {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #0f0627; /* Fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 120px; /* Espaço acima do rodapé */
+}

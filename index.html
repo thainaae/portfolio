@@ -1,0 +1,105 @@
+
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thainá Ellen">
+    
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho com título e menu -->
+        <h1 class="main-title">Meu Portfólio</h1>
+        <nav>
+            <ul class="menu-ul">
+                <!-- Itens do menu de navegação -->
+                <li class="menu-li"><a href="#apresentacao">Apresentação</a></li>
+                <li class="menu-li"><a href="#projetos">Projetos</a></li>
+                <li class="menu-li"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de apresentação -->
+        <section id="apresentacao">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou Thainá Ellen, tenho 18 anos e sou estudante do primeiro ano de Análise e Desenvolvimento de Sistema. Procuro oportunidades de atuação onde eu possa aprender e crescer como profissional em Desenvolvimento Web.</p>
+            <p>Minhas habilidades incluem:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <!-- Títulos da tabela -->
+                        <th>Habilidade</th>
+                        <th>Nível de Proficiência</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Avançado</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediário</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Seção de projetos -->
+        <section id="projetos">
+            <h2>Galeria de Projetos</h2>
+            <div class="projeto">
+                <img src="Panda-Formulario.png" alt="Projeto 1 da Galeria de Projetos, ela se baseia em um formulario de login feito de maneira personalizada no tema: Panda.">
+                <p>Projeto 1 - Formulário login com tema: Panda.</p>
+            </div>
+            <div class="projeto">
+                <img src="Projetos-em-HTML-e-CSS-para-Iniciantes-4.png" alt="Projeto de uma página de login feito com HTML e CSS de maneira simples">
+                <p>Projeto 2 - Outro sistema de login simples.</p>
+            </div>
+            <!-- Adicionar mais projetos conforme necessário -->
+        </section>
+
+        <!-- Seção de contato -->
+        <section class="contato">
+            <h2>Contato</h2>
+            <div class="contato-container">
+                <form action="#" method="post">
+                    <!-- Formulário de contato -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail:" required>
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder="Escreva uma mensagem:" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+        
+                <div class="mapa">
+                    <!-- Mapa integrado -->
+                    <p>Mapa:</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.486134582592!2d-34.90540852594581!3d-8.051791780429848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e110b4c52d%3A0x593f97edf11f2dd9!2sBloco%20A%20-%20R.%20Guilherme%20Pinto%2C%20114%20-%20Gra%C3%A7as%2C%20Recife%20-%20PE%2C%2052011-210!5e0!3m2!1spt-BR!2sbr!4v1728919287270!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <!-- Rodapé com copyright -->
+        <p>&copy; 2024 - Desenvolvido por T.E</p>
+    </footer>
+</body>
+</html>
